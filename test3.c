@@ -47,3 +47,33 @@ int test3_5(void)
 	return 0;
 }
 
+int test3_6(void)
+{
+	int i_nub;
+	printf("请输入水的夸脱数:\n");
+	scanf_s("%d", &i_nub);
+	printf("输入的夸脱数为:%d\n等于%lf个水分子\n",i_nub, i_nub * 950.0 / 3.0e-23);
+	return 0;
+}
+
+int test3_7(void)
+{
+	int i_height;
+	printf("请输入身高(英尺):\n");
+	scanf_s("%d", &i_height);
+	printf("你的身高英尺为:%d\n转换为厘米为%f\n", i_height, i_height * 2.54);
+	return 0;
+}
+
+int test3_8(void)
+{
+	double  d_cup;
+	printf("请输入杯数:\n");
+	scanf_s("%lf", &d_cup);
+	printf("%.2f杯数=%.2f品脱\n", d_cup, d_cup / 2);
+	printf("%.2f杯数=%.2f盎司\n", d_cup, d_cup * 8);
+	printf("%.2f杯数=%.2f汤勺\n", d_cup, d_cup * 8 * 2);
+	printf("%.2f杯数=%.2f茶勺\n", d_cup, d_cup * 8 * 2 * 3);
+	return 0;
+}
+
